@@ -1,0 +1,86 @@
+.cam-sc {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+}
+.bg-mine {
+  background-color: #262b4e;
+}
+.cam {
+  margin-bottom: -0.5rem;
+}
+header {
+  background: url("Images/oie_1952238RKqNiKZU-min.jpg");
+  border-bottom-left-radius: 300% 500px;
+  border-bottom-right-radius: 300% 500px;
+
+  height: 78vh;
+}
+
+.tint {
+  background-color: #262b4e;
+  background-blend-mode: multiply;
+  opacity: 95;
+}
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.bg-about {
+  background: #dbdbdb;
+}
+.font-acm {
+  color: #11214b;
+}
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+div {
+  transition: --num 1s;
+  counter-reset: num var(--num);
+  --num: 150;
+  content: counter(num);
+}
+
+.font-mono {
+  letter-spacing: 0.5rem;
+}
+
+img {
+  opacity: 40;
+}
+hr {
+  border-color: #11214b;
+  color: #11214b;
+}
+
+.bg-events {
+  background: url("Images/gallery_back_desk.svg");
+  background-attachment: fixed;
+}
+
+.box {
+  border-top-left-radius: 300% 150px;
+  border-top-right-radius: 300% 150px;
+  width: 100% !important;
+}
+
+.bg-event2 {
+  background-color: #11214b;
+  width: 100%;
+}
+
+.bg-event3 {
+  background: url("Images/Group-15.png");
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+}
+
+.footer {
+  background: #001233;
+}
